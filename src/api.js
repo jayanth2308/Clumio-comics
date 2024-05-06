@@ -1,4 +1,3 @@
-// api.js
 import axios from 'axios';
 import md5 from 'md5';
 
@@ -25,3 +24,4 @@ api.interceptors.request.use((config) => {
 });
 
 export default api;
+
